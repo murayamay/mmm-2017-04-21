@@ -1,10 +1,8 @@
+---
 applications:
-- path: .
-  memory: 256M
-  instances: 1
-  domain: mybluemix.net
-  name: mmm-2017-04-21
-  host: mmm-2017-04-21
-  disk_quota: 1024M
-  services:
-  - Text to Speech-2w
+- services:
+  - my-text-to-speech
+  name: text-to-speech-demo
+  command: npm start
+  path: .
+  memory: 512M

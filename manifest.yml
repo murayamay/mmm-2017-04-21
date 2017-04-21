@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: mmm-2017-04-21
+  host: mmm-2017-04-21
+  disk_quota: 1024M
+  services:
+  - Text to Speech-2w

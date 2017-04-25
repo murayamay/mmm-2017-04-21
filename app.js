@@ -70,4 +70,8 @@ app.get('/api/voices', (req, res, next) => {
 // error-handler settings
 require('./config/error-handler')(app);
 
+<<<<<<< HEAD
 module.exports = app;		// add test <murayama> 20170424.
+=======
+module.exports = app;			// add test 20170425 <murayama>.
+>>>>>>> 484c51e1f654d916d1b3970e3dce4a62f13f4ede

@@ -1,7 +1,7 @@
 ---
 applications:
 - services:
-  - my-text-to-speech
+  - Text to Speech-2w
   name: text-to-speech-demo
   command: npm start
   path: .
